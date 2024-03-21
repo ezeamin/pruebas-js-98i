@@ -25,3 +25,24 @@ Input: hola10 -> Output: Introduce un número válido
 4. Verificar resultado de calificación 
 5. Mostrar el mensaje
 */
+
+let edad = 50;
+let nombre = 'Gabi';
+let profesion = 'Cocinera';
+
+// console.log(
+//   'El empleado se llama ' +
+//     nombre +
+//     ', tiene ' +
+//     numero +
+//     ' años y trabaja de ' +
+//     profesion
+// );
+
+// Alt Gr + } + space -> Template Strings
+console.log(`Hola mundo! Soy ${nombre} y tengo ${edad} años`);
+
+// % -> Módulo = Resto de la división entera
+
+console.log(5 / 2);
+console.log(5 % 2);
