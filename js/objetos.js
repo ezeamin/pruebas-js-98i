@@ -1,7 +1,11 @@
+import { generarNumeroAleatorio } from "./utils/utils.js";
+
+// https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm
+
 const persona = {
   // Propiedades
   nombre: 'Pepe',
-  edad: 22,
+  edad: generarNumeroAleatorio(1, 100),
   estaCasado: true,
   idiomas: ['Español', 'Inglés'],
   direccion: {
@@ -34,3 +38,5 @@ console.log(persona);
 
 const nombrePropiedad = 'nombre';
 console.log(persona[nombrePropiedad]);
+
+document.write('Hola');

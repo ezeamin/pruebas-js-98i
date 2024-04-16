@@ -1,7 +1,7 @@
 // PascalCase
 class Persona {
   // Propiedades usando el constructor
-  constructor(nombre, edad, estaCasado) {
+  constructor(nombre, edad, estaCasado = false) {
     this.nombre = nombre;
     this.edad = edad;
     this.estaCasado = estaCasado;
@@ -18,7 +18,7 @@ class Persona {
   }
 }
 
-const juan = new Persona('juan', 22, true);
+const juan = new Persona('juan', 22);
 const lucia = new Persona('lucia', 33, false);
 
 console.log(juan);
@@ -26,4 +26,3 @@ console.log(lucia);
 
 juan.presentarse();
 lucia.presentarse();
-
